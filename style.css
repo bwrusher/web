@@ -1,11 +1,10 @@
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('FontsFree-Net-SFProDisplay-Light.ttf');
-}
-
 *{
     padding: 0;
     margin: 0;
+    @font-face {
+        font-family: SF Pro Display;
+        src: url('https://fonts.cdnfonts.com/css/sf-pro-display');
+    }
 }
 
 .wrapper {
@@ -20,10 +19,11 @@
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(40px);
     border-bottom: #818181;
+    position: fixed;
 }
 
 .logo {
-    width: 20px;
+    width: 18px;
     height: auto;
     padding: 9px 225px;
     color: white;
