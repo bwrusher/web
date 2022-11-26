@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 45px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(40px);
+    border-bottom: #818181;
+}
+
+.logo {
+    width: 20px;
+    height: auto;
+    padding: 9px 225px;
+    color: white;
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #c2c2c2;
+    padding: 6px 15px;
+    position: relative;
+    bottom: 30px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: lighter;
+    transition: .1s;
+    user-select: none;    
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.wrapper .middle {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: SF Pro Display;
+    user-select: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.middle .buttons {
+    margin: 35px, 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: #0080ff;
+}
+
+.wrapper .middle p1 {
+    color: #818181;
+    font-weight: lighter;
+}
+
+.buttons button:hover {
+    text-decoration: underline;
+}
