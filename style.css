@@ -14,7 +14,7 @@
 }
 
 .navbar {
-    height: 45px;
+    height: 44px;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(40px);
@@ -41,7 +41,7 @@
 .navbar ul li a{
     text-decoration: none;
     color: #c2c2c2;
-    padding: 6px 15px;
+    padding: 6px 17px;
     position: relative;
     bottom: 30px;
     font-family: SF Pro Display;
@@ -107,7 +107,6 @@
 
 .content p1 {
     font-family: SF Pro Display;
-    font-weight: lighter;
     font-size: 30px;
     color: #222222
 }
@@ -117,6 +116,7 @@
 }
 
 .content .ibuttons button {
+    text-align: center;
     height: 50px;
     width: 150px;
     font-family: SF Pro Display;
@@ -125,4 +125,39 @@
     cursor: pointer;
     background: transparent;
     color: #005fbe;
+}
+
+.content .iphone14 {
+    background-color: black;
+    text-align: center;
+}
+
+.iphone14 h1 {
+    margin-top: 5%;
+    font-family: SF Pro Display;
+    font-size: 50px;
+    color: white;
+}
+
+.iphone14 {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+.iphone14 p1 {
+    font-family: SF Pro Display;
+    font-size: 30px;
+    color: white;
+}
+
+.iphone14 .buttons2 button {
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: #006bd6;
 }
