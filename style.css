@@ -8,7 +8,8 @@
 }
 
 .wrapper {
-    background: url(wrapper.png) no-repeat;
+    background: black;
+    background: url(wrapper.png);
     background-size: cover;
     height: 100vh;
 }
