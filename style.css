@@ -8,7 +8,7 @@
 }
 
 .wrapper {
-    background: url(bg.jpg) no-repeat;
+    background: url(wrapper.png) no-repeat;
     background-size: cover;
     height: 100vh;
 }
