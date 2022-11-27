@@ -1,6 +1,6 @@
 @font-face {
-        font-family: 'SF Pro Display';
-        src: url('FontsFree-Net-SFProDisplay-Light.ttf');
+    font-family: 'SF Pro Display';
+    src: url('FontsFree-Net-SFProDisplay-Light.ttf');
 }
 
 *{
@@ -13,13 +13,13 @@
     position: auto;
     background-color: black;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
 }
 
 .navbar {
     height: 44px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.781);
     backdrop-filter: blur(40px);
     border-bottom: #818181;
     position: fixed;
@@ -66,7 +66,7 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: SF Pro Display;
+    font-family: sf pro display;
     user-select: none;
     text-align: center;
     color: white;
@@ -170,5 +170,79 @@
 }
 
 .iphone14 .buttons2 button:hover {
+    text-decoration: underline;
+}
+
+.left {
+    background: white;
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 500px 1px;
+    background: url('airpods.png') no-repeat;
+}
+
+.left h1 {
+    margin-top: 5%;
+    font-family: SF Pro Display;
+    font-size: 33px;
+    color: #222222;
+}
+
+.left p1 {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    color: #222222;
+}
+
+.right {
+    background: white;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.right h1 {
+    margin-top: 5%;
+    font-family: SF Pro Display;
+    font-size: 33px;
+    color: #222222;
+}
+
+.right p1 {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    color: #222222;
+}
+
+.left .buttons3 button {
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: #006bd6;
+}
+
+.left .buttons3 button:hover {
+    text-decoration: underline;
+}
+
+.right .buttons4 button {
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: #006bd6;
+}
+
+.right .buttons4 button:hover {
     text-decoration: underline;
 }
