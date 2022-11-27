@@ -3,13 +3,14 @@
     margin: 0;
     @font-face {
         font-family: 'SF Pro Display';
-        src: url('FontsFree-Net-SFProDisplay-Light.ttf');
+        src: url('https://fonts.cdnfonts.com/css/sf-pro-display');
     }
 }
 
 .wrapper {
-    background: black;
-    background: url(wrapper.png);
+    background: url('wrapper.png');
+    position: auto;
+    background-color: black;
     background-size: cover;
     height: 100vh;
 }
@@ -61,7 +62,7 @@
 
 .wrapper .middle {
     position: absolute;
-    top: 48%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: SF Pro Display;
@@ -128,6 +129,10 @@
     color: #005fbe;
 }
 
+.content .ibuttons button:hover {
+    text-decoration: underline;
+}
+
 .content .iphone14 {
     background-color: black;
     text-align: center;
@@ -161,4 +166,8 @@
     cursor: pointer;
     background: transparent;
     color: #006bd6;
+}
+
+.iphone14 .buttons2 button:hover {
+    text-decoration: underline;
 }
